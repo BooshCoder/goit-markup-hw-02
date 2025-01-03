@@ -23,8 +23,43 @@ body {
 .logo .logo-part {
   color: var(--IRIS, #4d5ae5);
 }
+.logo .logo-part-two {
+  color: rgb(244, 244, 253);
+}
 ul {
   list-style-type: none;
+}
+.section-one {
+  background: rgb(46, 47, 66);
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+h2 {
+  color: rgb(46, 47, 66);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2%;
+  text-align: center;
+}
+h2.hidden {
+  display: none;
+}
+h3 {
+  color: rgb(46, 47, 66);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
 }
 header nav ul li a {
   text-decoration: none;
@@ -45,6 +80,46 @@ header address ul li a {
   text-decoration: none;
   color: rgb(67, 68, 85);
   font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+header address ul li a:hover {
+  color: rgb(64, 75, 191);
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(77, 90, 229);
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(64, 75, 191);
+}
+.button-text {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4%;
+  text-align: left;
+}
+footer {
+  background-color: rgb(46, 47, 66);
+  color: rgb(244, 244, 253);
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
