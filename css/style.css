@@ -71,11 +71,12 @@ header nav ul li a {
 header nav ul li a:hover {
   color: rgb(64, 75, 191);
 }
-a.active:active {
-  text-decoration: underline;
-}
-a.active:focus {
+
+a.menu items:focus {
   color: #404bbf;
+}
+.contacts {
+  font-style: normal;
 }
 header address ul li a {
   text-decoration: none;
@@ -84,12 +85,15 @@ header address ul li a {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: left;
+  
 }
 header address ul li a:hover {
   color: rgb(64, 75, 191);
 }
+header address ul li a:focus {
+  color: rgb(64, 75, 191);
 button {
   background: rgb(77, 90, 229);
   color: white;
@@ -105,7 +109,7 @@ button:hover {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 4%;
+ letter-spacing: 0.04em;
   text-align: left;
 }
 footer {
@@ -115,6 +119,6 @@ footer {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: left;
 }
