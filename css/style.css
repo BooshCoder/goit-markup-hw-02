@@ -72,7 +72,7 @@ header nav ul li a:hover {
   color: rgb(64, 75, 191);
 }
 
-a.menu items:focus {
+header nav ul li a:focus {
   color: #404bbf;
 }
 .contacts {
