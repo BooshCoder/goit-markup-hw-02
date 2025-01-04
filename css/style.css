@@ -41,11 +41,35 @@ h1 {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.third-head-names {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.fourth-head-names {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .second-texts {
   letter-spacing: 0.02em;
 }
 h3 {
   color: rgb(46, 47, 66);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.third names {
+  olor: rgb(46, 47, 66);
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -111,6 +135,9 @@ button:focus {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: left;
+}
+.section-three {
+  background-color: #f4f4fd;
 }
 footer {
   background-color: rgb(46, 47, 66);
