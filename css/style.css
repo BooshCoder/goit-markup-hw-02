@@ -50,9 +50,7 @@ h2 {
   letter-spacing: 2%;
   text-align: center;
 }
-h2.hidden {
-  display: none;
-}
+
 h3 {
   color: rgb(46, 47, 66);
   font-size: 20px;
