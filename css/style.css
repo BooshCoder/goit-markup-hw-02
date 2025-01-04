@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   font-style: "normal";
-  letter-spacing: 2;
+  letter-spacing: 0.02em;
   background-color: #fff;
   color: #434455;
 }
@@ -37,17 +37,19 @@ h1 {
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
-
+.our goal {
+  letter-spacing: 0.02em;
+}
 h3 {
   color: rgb(46, 47, 66);
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: left;
 }
 header nav ul li a {
@@ -89,9 +91,16 @@ button {
   background: rgb(77, 90, 229);
   color: white;
   outline: none;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
   cursor: pointer;
 }
 button:hover {
+  background-color: rgb(64, 75, 191);
+}
+
+button:focus {
   background-color: rgb(64, 75, 191);
 }
 .button-text {
