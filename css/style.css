@@ -73,7 +73,7 @@ ul {
   letter-spacing: 0.02em;
   font-size: 16px;
 }
-.value .team-names .portfolio-names {
+.value {
   color: rgb(46, 47, 66);
   font-size: 20px;
   font-weight: 500;
@@ -81,6 +81,23 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
 }
+.team-names {
+  color: rgb(46, 47, 66);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.portfolio-names {
+  color: rgb(46, 47, 66);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
 .team-names {
   color: rgb(46, 47, 66);
   font-size: 20px;
@@ -109,7 +126,9 @@ ul {
 .menu-items:focus {
   color: #404bbf;
 }
-
+.contacts {
+  font-style: normal;
+}
 .contact {
   text-decoration: none;
   color: rgb(67, 68, 85);
